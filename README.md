@@ -15,8 +15,7 @@
   * Update ClearScreen function to work with multiple Os
 
 ### Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?   
-  * The CreateHistogram function caused me the most issue. Honestly I have no idea why reading a file and printing it out   
-  was such a hassle.   
+  * The CreateHistogram function caused me the most issue. Honestly I have no idea why reading a file and printing it out was such a hassle.   
 
 ### What skills from this project will be particularly transferable to other projects or course work?   
   * The read/write from a file   
