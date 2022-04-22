@@ -22,3 +22,7 @@
   * The hybrid c++ and python interaction
 
 ### How did you make this program maintainable, readable, and adaptable?
+  * All code was maintained in Git repo (BitBucket)
+  * Comments for all functions
+  * Standard formatting with spaces
+  
