@@ -1,0 +1,38 @@
+// {
+//   "version": "2.0.0",
+//   "tasks": [
+//     {
+//       "type": "shell",
+//       "label": "g++ build active file",
+//       "command": "/usr/bin/g++",
+//       "args": ["-g", "-I/usr/include/python3.8", "-lpython3.8", "Source.cpp", "-o", "${fileDirname}/linux/project_three"],
+//       "options": {
+//         "cwd": "/usr/bin"
+//       },
+//       "problemMatcher": ["$gcc"],
+//       "group": {
+//         "kind": "build",
+//         "isDefault": true
+//       }
+//     }
+//   ]
+// }
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "g++ build active file",
+      "command": "/usr/bin/g++",
+      "args": ["-g", "-I/usr/include/python3.8", "-lpython3.8", "${file}", "-o", "${fileDirname}/${fileBasenameNoExtension}"],
+      "options": {
+        "cwd": "/usr/bin"
+      },
+      "problemMatcher": ["$gcc"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
