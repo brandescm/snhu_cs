@@ -1,3 +1,10 @@
+# snhu_cs230 Design Document
+
+### Draw It or Lose It Design Document
+  * Three updates to this file
+  * Added design contraints
+  * Revision 1.3 covered recommendations for the OS, memory management, etc.
+
 # snhu_cs210 Project Three
 
 ### Summarize the project and what problem it was solving.
